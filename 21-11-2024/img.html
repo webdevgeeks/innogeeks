@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        img{
+            height: 300px;
+            width: 200px;
+        }
+        #img4{
+            position: relative;
+            left: 40px;
+        }
+        #img2{
+            position: fixed;
+        }
+        #img3{
+            position: sticky;
+            top:400px;
+        }
+        #img1{
+            position: absolute;
+        }
+        #content{
+            border: solid white 2px;
+            height: 4000px;
+            display: block  ; 
+        }
+        #div2{
+            background-color: red;
+            height:3000px;
+        }
+    </style>
+</head>
+<body>
+    <div id="content">
+    <img src="img1.jpg" id="img1" alt="">
+    <img src="img2.jpg" id="img2" alt="">
+
+    <img src="img3.jpg" id="img3" alt="">
+
+    <img src="img4.png" id="img4" alt="">
+</div>
+<div id="div2">
+
+</div>
+</body>
+</html>
